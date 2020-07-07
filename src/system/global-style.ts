@@ -75,6 +75,7 @@ a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
   transition: 0.3s;
+  text-decoration: none;
 }
 a:active,
 a:hover {
@@ -137,7 +138,7 @@ input,
 optgroup,
 select,
 textarea {
-  font: inherit;
+  font-family: ${body};
   margin: 0;
 }
 optgroup {

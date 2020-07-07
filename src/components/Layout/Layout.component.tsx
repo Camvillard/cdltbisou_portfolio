@@ -3,9 +3,9 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
 import { Header } from "../Header/Header.component"
-import { GlobalStyle } from "../../theme/global-theme"
 import { DefaultLayoutWrapper } from "./Layout.ui"
 import { Footer } from "../Footer/Footer.component"
+import { GlobalStyle } from "../../system/global-style"
 
 export const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
